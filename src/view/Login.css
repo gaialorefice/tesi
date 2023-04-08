@@ -1,0 +1,16 @@
+.box{
+    display: flex;
+    background-color: #ffffff;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content:center;
+    /* margin: -25px 0 0 -25px; */
+    
+  }
+
+  .login{
+    height: 100vh;
+  }
