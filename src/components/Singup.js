@@ -54,7 +54,6 @@ export default function Singup() {
                     <input type = "email" onChange={(e) =>{setEmail(e.target.value)}} placeholder="Email" name = "" id =""/> <br/>
                     <input type = "password" onChange={(e) =>{setPassword(e.target.value)}} placeholder="Password" name = "" id =""/> <br/>
                     <button type="submit" className='btn btn-outline-primary' onClick={submit}>succhia</button>
-        
                 </form>
                 <Link to="/singup"> Non ancora registrato? Registrati!</Link>
             </div>
